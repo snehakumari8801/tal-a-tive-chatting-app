@@ -11,6 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "18": "^0.0.0",
+    "@emailjs/browser": "^4.4.1",
     "ansi-html": "^0.0.9",
     "bcryptjs": "^2.4.3",
     "concurrently": "^9.1.0",
