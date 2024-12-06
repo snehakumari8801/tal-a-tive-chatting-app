@@ -19,6 +19,7 @@
     "react-lottie": "^1.2.10",
     "react-notification-badge": "^1.5.1",
     "react-router": "^7.0.1",
+    "react-scripts": "^5.0.1",
     "socket.io-client": "^4.8.1",
     "talk-a-tive": "file:..",
     "web-vitals": "^4.2.4"
@@ -54,7 +55,6 @@
     "@babel/plugin-transform-numeric-separator": "^7.25.9",
     "@babel/plugin-transform-private-methods": "^7.25.9",
     "concurrently": "^9.1.0",
-    "react-scripts": "^5.0.1",
     "tailwindcss": "^3.4.15",
     "webpack": "^5.96.1"
   }
