@@ -14,15 +14,12 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        {/* <Routes> Use Routes for v5 */}
           <Route path="/" element={<Homepage/>} />
           <Route path="/chats" element={<Chatpage/>} />
           <Route path="/login" element={<Loginpage/>} />
           <Route path="/signup" element={<Signuppage/>} />
           <Route path="/myprofile" element={<ProfileModal/>} />
           <Route path="/mychats" element={<MyChats/>}/>
-
-        {/* </Routes> */}
       </Routes>
     </div>
   );
