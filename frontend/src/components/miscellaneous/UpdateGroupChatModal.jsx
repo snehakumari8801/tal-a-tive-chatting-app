@@ -16,7 +16,11 @@ function UpdateGroupChatModal({
   const [searchToAdd, setSearchToAdd] = useState("");
   const [searchlist, setSearchList] = useState([]);
 
+
   const { user } = ChatState();
+
+ // console.log(selectedChat);
+  
 
   // Handle user removal
   async function handleRemove(user1) {

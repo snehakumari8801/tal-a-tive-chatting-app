@@ -304,8 +304,8 @@ function Chatpage() {
         />
       )}
 
-      <div className="flex  flex-col sm:flex-row mt-4 sm:mt-4
-       bg-gray-500 p-2 sm:m-4 rounded-md text-white">
+      <div className="flex  flex-col sm:flex-row mt-4 sm:mt-4 bg-gray-500
+       p-2 sm:m-4 rounded-md text-white">
         
         {/* Search Icon for Small Screens */}
         <div className="sm:hidden flex justify-between items-center">
@@ -313,6 +313,10 @@ function Chatpage() {
             className="text-white text-2xl cursor-pointer" 
             onClick={() => setShowMyChats(!showMyChats)} 
           />
+
+          {
+            showMyChats && <div onClick={() => setShowMyChats(!showMyChats)}>X</div>
+          }
         </div>
 
         {/* MyChats Component for Small Screens */}
@@ -320,6 +324,7 @@ function Chatpage() {
           {user && (
             <MyChats
               fetchAgain={fetchAgain}
+              setFetchAgain={setFetchAgain}
               loggedUser={loggedUser}
               setLoggedUser={setLoggedUser}
               loading={loading}
@@ -346,6 +351,7 @@ function Chatpage() {
         <div className="w-full sm:w-3/4">
           {user && (
             <ChatBox 
+               fetchAgain={fetchAgain}
               setFetchAgain={setFetchAgain} 
               selectedUser={selectedUser} 
               setSelectedUser={setSelectedUser} 

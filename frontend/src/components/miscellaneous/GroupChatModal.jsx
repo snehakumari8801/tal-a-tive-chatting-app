@@ -115,7 +115,7 @@ function GroupChatModal({
   }
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       {/* Modal for New Group Chat */}
       <div
         className={`${

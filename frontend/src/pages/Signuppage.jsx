@@ -148,7 +148,6 @@
 
 // export default Signuppage;
 
-
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router";
@@ -171,7 +170,11 @@ function Signuppage() {
     }
     setError("");
 
-    if (file.type === "image/jpeg" || file.type === "image/jpg" || file.type === "image/png") {
+    if (
+      file.type === "image/jpeg" ||
+      file.type === "image/jpg" ||
+      file.type === "image/png"
+    ) {
       const data = new FormData();
       data.append("file", file);
       data.append("upload_preset", "Chatt_app");
