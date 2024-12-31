@@ -123,7 +123,7 @@ function MyChats({
       <div>
         {chats.map((chat) => (
           <div
-            className="bg-gray-400 mt-2 h-10 text-white hover:bg-gray-500 cursor-pointer p-2"
+            className="bg-gray-400 mt-2 h-10 text-black capitalize hover:bg-gray-500 cursor-pointer p-2"
             onClick={() => setSelectedChat(chat)}
           >
             {chat.chatName}

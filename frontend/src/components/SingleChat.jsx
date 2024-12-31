@@ -415,7 +415,7 @@ function SingleChat({
           </button>
         )}
 
-        <p className="text-lg font-semibold">
+        <p className="text-lg font-semibold capitalize">
           {selectedChat?.chatName || "Chat"}
         </p>
 
