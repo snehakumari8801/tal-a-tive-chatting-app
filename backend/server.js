@@ -47,7 +47,7 @@ const server = app.listen(port, () => {
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost:3001",
+    origin:'https://tal-a-tive-chatting-app-19.onrender.com'   //"http://localhost:3001",
   },
 });
 
