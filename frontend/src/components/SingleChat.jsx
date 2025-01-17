@@ -599,7 +599,7 @@ function SingleChat({
   // Fetch messages whenever the selected chat changes or on the first render
   useEffect(() => {
     fetchAllChats();
-  }, [selectedChat]); 
+  }, [messages,selectedChat]); 
   // This ensures messages are fetched whenever the selectedChat changes
 
   // Handle new incoming messages
