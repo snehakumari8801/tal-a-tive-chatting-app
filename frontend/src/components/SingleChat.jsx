@@ -497,7 +497,8 @@ import animationData from "../../src/typing.json";
 import io from "socket.io-client";
 import { FaArrowLeft } from "react-icons/fa";
 
-const ENDPOINT = "http://localhost:3000"  //'https://tal-a-tive-chatting-app-21.onrender.com'        //; // Your backend endpoint
+//const ENDPOINT = "http://localhost:3000"  //'https://tal-a-tive-chatting-app-21.onrender.com'        //; // Your backend endpoint
+const ENDPOINT = "http://localhost:3000"
 let socket;
 
 function SingleChat({
