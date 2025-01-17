@@ -735,7 +735,7 @@ import io from "socket.io-client";
 import { FaArrowLeft } from "react-icons/fa";
 
 //const ENDPOINT = "http://localhost:3000"; // Replace with your backend endpoint if needed
-const ENDPOINT = "https://tal-a-tive-chatting-app-dewp.onrender.com"
+const ENDPOINT = "https://talk-a-tive.herokuapp.com"
 
 let socket;
 
